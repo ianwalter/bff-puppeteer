@@ -23,5 +23,7 @@ Received: serializes to the same string",
 exports[`bff-webdriver 3`] = `
 Array [
   "skip no assertions",
+  "skip with no test function",
+  "skip with test specified after name",
 ]
 `;

@@ -8,26 +8,27 @@ function handleTestArgs (name, tags, test = {}) {
   const testFn = tags.pop()
   const key = oneLine(name)
   Object.assign(test, { key, name: key, fn: testFn, tags })
+  window.testMap[test.key] = test
   if (testFn && typeof testFn === 'function') {
-    window.testMap[test.key] = test
+    return test
   } else {
     return fn => {
       Object.assign(test, { fn, tags: testFn ? [...tags, testFn] : [] })
-      window.testMap[test.key] = test
+      return test
     }
   }
 }
 
 function test (name, ...tags) {
-  handleTestArgs(name, tags)
+  return handleTestArgs(name, tags)
 }
 
 test.skip = function skip (name, ...tags) {
-  handleTestArgs(name, tags, { skip: true })
+  return handleTestArgs(name, tags, { skip: true })
 }
 
 test.only = function only (name, ...tags) {
-  handleTestArgs(name, tags, { only: true })
+  return handleTestArgs(name, tags, { only: true })
 }
 
 window.runTest = async function (testContext) {
