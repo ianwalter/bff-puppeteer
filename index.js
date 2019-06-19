@@ -80,7 +80,7 @@ module.exports = {
         )
 
         // Compile the test file using Webpack.
-        print.debug('Compiling Puppeteer file:', chalk.gray(file.puppeteer.path))
+        print.debug('Compiling Puppeteer file', chalk.gray(file.puppeteer.path))
         const compiler = webpack(file.puppeteer.webpack)
         await new Promise((resolve, reject) => {
           compiler.run(err => {
