@@ -8,7 +8,7 @@
   "main": "index.js",
   "browser": "browser.js",
   "scripts": {
-    "lint": "eslint index.js browser.js tests",
+    "lint": "eslint .",
     "test": "bff tests/bffWebdriver.js"
   },
   "repository": {
@@ -61,6 +61,9 @@
     "root": true,
     "extends": [
       "@ianwalter"
-    ]
+    ],
+    "globals": {
+      "FILE_SERVER_PORT": true
+    }
   }
 }
