@@ -28,7 +28,8 @@
   ],
   "files": [
     "index.js",
-    "browser.js"
+    "browser.js",
+    "fs.js"
   ],
   "dependencies": {
     "@ianwalter/bff": "^5.2.1",

@@ -51,7 +51,8 @@ module.exports = {
     print = new Print({ level: context.logLevel })
     print.debug('bff-puppeteer registration', chalk.gray(file.relativePath))
 
-    // TODO: comment.
+    // Add Puppeteer config to the test file context if all tests are marked as
+    // Puppeteer tests or the file name contains .pptr as part of the extension.
     if (context.puppeteer.all || pptrRegex.test(file.path)) {
       try {
         const webpack = require('webpack')
@@ -60,7 +61,6 @@ module.exports = {
 
         // Create a temporary path for the compiled test file.
         const compiledPath = tempy.file({ extension: 'js' })
-        // TODO: comment.
         const webpackDefault = {
           entry: file.path,
           output: {
@@ -120,9 +120,8 @@ module.exports = {
           throw error
         }
 
-        // TODO: update comment.
-        // Create the registration context with the list of tests that are
-        // intended to be run.
+        // Tell bff not to run these tests since this plugin will run them
+        // instead.
         const shouldRun = false
         context.augmentTests = tests => tests.map(t => ({ ...t, shouldRun }))
       } catch (err) {
@@ -163,8 +162,8 @@ module.exports = {
     }
   },
   async after () {
-    // TODO: update comment.
-    // If a file server is running, try to close it.
+    // If the file server used to serve snapshot files to the browser is
+    // running, try to close it.
     if (fileServer) {
       fileServer.close()
     }
