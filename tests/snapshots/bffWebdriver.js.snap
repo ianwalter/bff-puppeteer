@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`bff-webdriver 1`] = `
+Array [
+  "arithmetic",
+  "dom snapshot",
+  "manual pass",
+]
+`;
+
+exports[`bff-webdriver 2`] = `
+Array [
+  "deep equal failure: expect(received).toBe(expected) // Object.is equality
+
+If it should pass with deep equality, replace \\"toBe\\" with \\"toStrictEqual\\"
+
+Expected: {\\"name\\": \\"Joe\\"}
+Received: serializes to the same string",
+  "property of undefined: Cannot read property 'that' of undefined",
+]
+`;
+
+exports[`bff-webdriver 3`] = `
+Array [
+  "skip no assertions",
+]
+`;

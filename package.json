@@ -1,0 +1,65 @@
+{
+  "name": "@ianwalter/bff-puppeteer",
+  "description": "A bff plugin to enable Puppeteer-based testing",
+  "version": "0.0.0",
+  "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
+  "homepage": "https://github.com/ianwalter/bff-puppeteer#readme",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "index.js",
+  "browser": "browser.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "bff tests/bffWebdriver.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianwalter/bff-puppeteer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ianwalter/bff-puppeteer/issues"
+  },
+  "keywords": [
+    "bff",
+    "puppeteer",
+    "browser",
+    "chrome",
+    "test",
+    "testing"
+  ],
+  "files": [
+    "index.js",
+    "browser.js"
+  ],
+  "dependencies": {
+    "@ianwalter/bff": "^5.2.1",
+    "@ianwalter/merge": "^4.0.0",
+    "@ianwalter/print": "^2.3.1",
+    "common-tags": "^1.8.0",
+    "fs-remote": "^0.1.9",
+    "puppeteer": "^1.17.0",
+    "tempy": "^0.3.0",
+    "webpack": "^4.34.0"
+  },
+  "devDependencies": {
+    "@ianwalter/eslint-config": "^1.1.2",
+    "@ianwalter/renovate-config": "^1.1.0",
+    "np": "^5.0.1"
+  },
+  "bff": {
+    "logLevel": "debug",
+    "plugins": [
+      "index"
+    ]
+  },
+  "renovate": {
+    "extends": [
+      "@ianwalter"
+    ]
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@ianwalter"
+    ]
+  }
+}
