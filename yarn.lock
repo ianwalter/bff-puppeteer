@@ -134,10 +134,10 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@ianwalter/bff@^6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-6.0.0.tgz#670ea01d4a2b473c7ccfd6e07f9c110e20ea65f6"
-  integrity sha512-W8e3igLc/aimfzQ1WG+1FuyVJw2DF7RAk20AFS7XxlLkBBV+XxeRn64N0jUoS9bp1c0ildJhs/gIh+7DhCU+kg==
+"@ianwalter/bff@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-6.0.1.tgz#e175adb7efc78b4aeb5444779b586fe38e391992"
+  integrity sha512-FwTZZweGOTa0loNv/th/Jz2UoUuoT71XeWYTbiP1nJjkX1imOdGhiAERjvGLkg7qTE24AcKrmRUZJmLrQMEKnQ==
   dependencies:
     "@ianwalter/cli" "^1.1.1"
     "@ianwalter/print" "^2.3.1"
@@ -148,7 +148,6 @@
     junit-report-builder "^1.3.2"
     p-series "^2.1.0"
     p-timeout "^3.1.0"
-    webpack "^4.34.0"
     workerpool "^3.1.2"
 
 "@ianwalter/cli@^1.1.1":
