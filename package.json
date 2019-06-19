@@ -8,7 +8,7 @@
   "main": "index.js",
   "browser": "browser.js",
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint index.js browser.js tests",
     "test": "bff tests/bffWebdriver.js"
   },
   "repository": {
