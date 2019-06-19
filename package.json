@@ -47,7 +47,6 @@
     "np": "^5.0.3"
   },
   "bff": {
-    "logLevel": "debug",
     "plugins": [
       "index"
     ]
