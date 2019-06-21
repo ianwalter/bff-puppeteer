@@ -39,7 +39,7 @@
     "fs-remote": "^0.1.9",
     "puppeteer": "^1.18.0",
     "tempy": "^0.3.0",
-    "webpack": "^4.34.0"
+    "webpack": "^4.35.0"
   },
   "devDependencies": {
     "@ianwalter/eslint-config": "^2.0.1",
