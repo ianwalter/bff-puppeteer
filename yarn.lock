@@ -134,13 +134,13 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@ianwalter/bff@^6.0.1":
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-6.0.1.tgz#e175adb7efc78b4aeb5444779b586fe38e391992"
-  integrity sha512-FwTZZweGOTa0loNv/th/Jz2UoUuoT71XeWYTbiP1nJjkX1imOdGhiAERjvGLkg7qTE24AcKrmRUZJmLrQMEKnQ==
+"@ianwalter/bff@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-6.2.0.tgz#502cc2c6808d349e76464ef2b68b6b892a8f1e84"
+  integrity sha512-BYVUrx2sqy3fxw+3P3ad4kXEFQBOktKF6VUneAMXHBhqfyxppPMWPZDCGRCfa6aSftN8uTDqWtES2KfDNcMx+Q==
   dependencies:
     "@ianwalter/cli" "^1.1.1"
-    "@ianwalter/print" "^2.3.1"
+    "@ianwalter/print" "^3.0.0"
     common-tags "^1.8.0"
     expect "^24.8.0"
     globby "^9.2.0"
@@ -192,16 +192,6 @@
   integrity sha512-ne2wO/KT1NeaeYVoRLDkrKq2q72q9EgvgVP62l8XZddyXxVjgk/D3Bh4WnDD6X3PKEs/meB9L1oTuQKx03xEFA==
   dependencies:
     "@babel/runtime-corejs3" "^7.4.4"
-
-"@ianwalter/print@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@ianwalter/print/-/print-2.3.1.tgz#36e3ed258a9333f39d45e18e2297f987685b8c3d"
-  integrity sha512-cJSwa3eXMfqU3T/A82e48vnbHy0AJiELIQUD2saaDIxkEZZN01eX5euboLUPCf1Pt72Es5VWDnwScXf6fceFBw==
-  dependencies:
-    "@ianwalter/log" "^3.0.0"
-    chalk "^2.4.2"
-    has-ansi "^3.0.0"
-    has-emoji "^1.0.0"
 
 "@ianwalter/print@^3.0.0":
   version "3.0.0"
