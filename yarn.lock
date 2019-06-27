@@ -204,6 +204,17 @@
     has-ansi "^3.0.0"
     has-emoji "^1.0.0"
 
+"@ianwalter/print@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@ianwalter/print/-/print-3.0.1.tgz#73d81f83fcb6366331704985e0c7ebe8c914a812"
+  integrity sha512-g2QKEUaOuhKR2WdY0nPXbBPA1KifKAH/9u47JdIIizkJQB+Mq1Pd6yLRKiaEQWQCUiPag3gIch+2YHVC4M1nPQ==
+  dependencies:
+    "@ianwalter/log" "^3.0.0"
+    chalk "^2.4.2"
+    chromafi ianwalter/chromafi
+    has-ansi "^3.0.0"
+    has-emoji "^1.0.0"
+
 "@ianwalter/renovate-config@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@ianwalter/renovate-config/-/renovate-config-1.1.0.tgz#04bbd0e384eb0d37eb7c94bddc7ea6d0f3bc1bf4"
@@ -1183,6 +1194,26 @@ chromafi@^2.1.0:
     he "^1.1.1"
     highlight.js "^9.12.0"
     husky "^0.14.3"
+    min-indent "^1.0.0"
+    strip-ansi "^4.0.0"
+    strip-indent "^2.0.0"
+    super-split "^1.1.0"
+
+chromafi@ianwalter/chromafi:
+  version "2.1.0"
+  uid "5fc4e4335f56501152bfa339f7e7c1f2c785959c"
+  resolved "https://codeload.github.com/ianwalter/chromafi/tar.gz/5fc4e4335f56501152bfa339f7e7c1f2c785959c"
+  dependencies:
+    ansi-mark "^1.0.0"
+    ansi-regex "^3.0.0"
+    array-uniq "^1.0.3"
+    camelcase "^4.1.0"
+    chalk "^2.3.2"
+    cheerio "^1.0.0-rc.2"
+    deepmerge "^2.1.0"
+    detect-indent "^5.0.0"
+    he "^1.1.1"
+    highlight.js "^9.12.0"
     min-indent "^1.0.0"
     strip-ansi "^4.0.0"
     strip-indent "^2.0.0"

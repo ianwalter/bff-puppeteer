@@ -34,7 +34,7 @@
   "dependencies": {
     "@ianwalter/bff": "^6.2.0",
     "@ianwalter/merge": "^4.0.0",
-    "@ianwalter/print": "^3.0.0",
+    "@ianwalter/print": "^3.0.1",
     "common-tags": "^1.8.0",
     "fs-remote": "^0.1.9",
     "puppeteer": "^1.18.1",
