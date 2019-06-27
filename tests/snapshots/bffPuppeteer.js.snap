@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`bff-webdriver 1`] = `
+exports[`bff-puppeteer 1`] = `
 Array [
   "arithmetic",
   "dom snapshot",
@@ -8,7 +8,7 @@ Array [
 ]
 `;
 
-exports[`bff-webdriver 2`] = `
+exports[`bff-puppeteer 2`] = `
 Array [
   "deep equal failure: expect(received).toBe(expected) // Object.is equality
 
@@ -20,7 +20,7 @@ Received: serializes to the same string",
 ]
 `;
 
-exports[`bff-webdriver 3`] = `
+exports[`bff-puppeteer 3`] = `
 Array [
   "skip no assertions",
   "skip with no test function",

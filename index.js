@@ -119,11 +119,6 @@ module.exports = {
         if (error) {
           throw error
         }
-
-        // Tell bff not to run these tests since this plugin will run them
-        // instead.
-        const shouldRun = false
-        context.augmentTests = tests => tests.map(t => ({ ...t, shouldRun }))
       } catch (err) {
         print.error(err)
       }
@@ -135,7 +130,10 @@ module.exports = {
       const puppeteer = require('puppeteer')
       context.browser = await puppeteer.launch(context.puppeteer)
       context.page = await context.browser.newPage()
-
+    }
+  },
+  async runTest (file, context) {
+    if (file.puppeteer) {
       // Add the compiled file to the page.
       await context.page.addScriptTag({ path: file.puppeteer.path })
 
@@ -145,6 +143,7 @@ module.exports = {
         testContext => window.runTest(testContext),
         context.testContext
       )
+      context.testContext.hasRun = true
 
       // If the test failed, re-hydrate the JSON failure data into an Error
       // instance.
