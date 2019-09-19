@@ -19,7 +19,7 @@ module.exports = {
         mode: 'development',
         resolve: {
           alias: {
-            'fs': path.join(__dirname, 'fs.js'),
+            fs: path.join(__dirname, 'fs.js'),
             '@ianwalter/bff-puppeteer': path.join(__dirname, 'browser.js')
           }
         },
