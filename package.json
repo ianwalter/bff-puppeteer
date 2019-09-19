@@ -42,7 +42,7 @@
     "webpack": "^4.35.0"
   },
   "devDependencies": {
-    "@ianwalter/eslint-config": "^2.0.1",
+    "@ianwalter/eslint-config": "^3.0.0",
     "@ianwalter/renovate-config": "^1.2.0",
     "np": "^5.1.0"
   },
