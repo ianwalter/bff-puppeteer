@@ -14,6 +14,8 @@ yarn add @ianwalter/bff-puppeteer --dev
 * [`@ianwalter/bff`][bffUrl] - Your friendly test runner/framework
 * [`@ianwalter/bff-webdriver`][bffWebdriverUrl] - A bff plugin to enable
   WebDriver-based testing
+* [`@ianwalter/puppeteer`][iwpupUrl] - A GitHub Action / Docker image for 
+  Puppeteer, the Headless Chrome Node API 
 
 ## License
 
@@ -28,4 +30,5 @@ Created by [Ian Walter](https://iankwalter.com)
 [npmImage]: https://img.shields.io/npm/v/@ianwalter/bff-puppeteer.svg
 [npmUrl]: https://www.npmjs.com/package/@ianwalter/bff-puppeteer
 [bffWebdriverUrl]: https://github.com/ianwalter/bff-webdriver
+[iwpupUrl]: https://github.com/ianwalter/puppeteer
 [licenseUrl]: https://github.com/ianwalter/bff-puppeteer/blob/master/LICENSE
