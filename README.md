@@ -9,6 +9,18 @@
 yarn add @ianwalter/bff-puppeteer --dev
 ```
 
+# Usage
+
+Add `bff-puppeteer` as a `bff` plugin in `package.json`:
+
+```json
+"bff": {
+  "plugins": [
+    "@ianwalter/bff-puppeteer"
+  ]
+}
+```
+
 ## Related
 
 * [`@ianwalter/bff`][bffUrl] - Your friendly test runner/framework
