@@ -1,7 +1,7 @@
 {
   "name": "@ianwalter/bff-puppeteer",
   "description": "A bff plugin to enable Puppeteer-based testing",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
   "homepage": "https://github.com/ianwalter/bff-puppeteer#readme",
   "license": "SEE LICENSE IN LICENSE",
