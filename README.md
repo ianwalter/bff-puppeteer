@@ -31,11 +31,11 @@ Add `bff-puppeteer` as a `bff` plugin in `package.json`:
 
 ## License
 
-Apache 2.0 with Commons Clause - See [LICENSE][licenseUrl]
+Hippocratic License - See [LICENSE][licenseUrl]
 
 &nbsp;
 
-Created by [Ian Walter](https://iankwalter.com)
+Created by [Ian Walter](https://ianwalter.dev)
 
 [bffUrl]: https://github.com/ianwalter/bff
 [pptrUrl]: https://pptr.dev
