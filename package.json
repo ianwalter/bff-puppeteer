@@ -42,7 +42,7 @@
     "common-tags": "^1.8.0",
     "fs-remote": "^0.1.9",
     "puppeteer": "^2.0.0",
-    "tempy": "^0.3.0",
+    "tempy": "^0.4.0",
     "webpack": "^4.41.6"
   },
   "devDependencies": {
