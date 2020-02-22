@@ -2,6 +2,7 @@
 > A [bff][bffUrl] plugin to enable [Puppeteer][pptrUrl]-based testing
 
 [![npm page][npmImage]][npmUrl]
+[![CI][ciImage]][ciUrl]
 
 ## Installation
 
@@ -26,8 +27,8 @@ Add `bff-puppeteer` as a `bff` plugin in `package.json`:
 * [`@ianwalter/bff`][bffUrl] - Your friendly test runner/framework
 * [`@ianwalter/bff-webdriver`][bffWebdriverUrl] - A bff plugin to enable
   WebDriver-based testing
-* [`@ianwalter/puppeteer`][iwpupUrl] - A GitHub Action / Docker image for 
-  Puppeteer, the Headless Chrome Node API 
+* [`@ianwalter/puppeteer`][iwpupUrl] - A GitHub Action / Docker image for
+  Puppeteer, the Headless Chrome Node API
 
 ## License
 
@@ -41,6 +42,8 @@ Created by [Ian Walter](https://ianwalter.dev)
 [pptrUrl]: https://pptr.dev
 [npmImage]: https://img.shields.io/npm/v/@ianwalter/bff-puppeteer.svg
 [npmUrl]: https://www.npmjs.com/package/@ianwalter/bff-puppeteer
+[ciImage]: https://github.com/ianwalter/bff-puppeteer/workflows/CI/badge.svg
+[ciUrl]: https://github.com/ianwalter/bff-puppeteer/actions
 [bffWebdriverUrl]: https://github.com/ianwalter/bff-webdriver
 [iwpupUrl]: https://github.com/ianwalter/puppeteer
 [licenseUrl]: https://github.com/ianwalter/bff-puppeteer/blob/master/LICENSE
