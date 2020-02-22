@@ -297,6 +297,11 @@
   resolved "https://registry.yarnpkg.com/@ianwalter/merge/-/merge-5.0.0.tgz#972b3cd668ab87416fba1af99186cd83d34d687f"
   integrity sha512-Z+Xn8dT0ApkjGizdwMQaCgsAyHO+zKhCC2OYO7lEYLs1IdCzXtRUYah3vkIWT8/Ad94ni0rxtR39VTRWJE1/Qw==
 
+"@ianwalter/merge@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/merge/-/merge-6.0.0.tgz#7d7facccc86fb407571c78de00a0bd2adca395cb"
+  integrity sha512-Ohskh/vqQFgW2Abaxd3kPYz/uNqoUmCSjU8kB8SoRieQqIOyXit1pFKYW4HmcoRcDFbktpWmS1QpIBoF74DGBg==
+
 "@ianwalter/print@^3.9.0":
   version "3.9.0"
   resolved "https://registry.yarnpkg.com/@ianwalter/print/-/print-3.9.0.tgz#db84d5f0fdcd144b1647aded8d33e6fa615208b9"
