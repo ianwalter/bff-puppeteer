@@ -22,6 +22,17 @@ Add `bff-puppeteer` as a `bff` plugin in `package.json`:
 }
 ```
 
+Create a test like `example.pptr.js` and import the test function from 
+`@ianwalter/bff-puppeteer`:
+
+```js
+import { test } from '@ianwalter/bff-puppeteer'
+
+test('something', t => {
+  t.exepct(window).toBeDefined()
+})
+```
+
 ## Related
 
 * [`@ianwalter/bff`][bffUrl] - Your friendly test runner/framework
