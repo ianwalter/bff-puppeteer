@@ -29,7 +29,7 @@ Create a test like `example.pptr.js` and import the test function from
 import { test } from '@ianwalter/bff-puppeteer'
 
 test('something', t => {
-  t.exepct(window).toBeDefined()
+  t.expect(window).toBeDefined()
 })
 ```
 
