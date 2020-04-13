@@ -30,7 +30,7 @@ module.exports = {
     // If running in the Puppeteer Docker container, configure Puppeteer to use
     // the instance of Google Chrome that is already installed.
     if (process.env.PUPPETEER_SKIP_CHROMIUM_DOWNLOAD) {
-      puppeteer.executablePath = 'google-chrome-unstable'
+      puppeteer.executablePath = 'google-chrome-stable'
     }
 
     // Merge the default Puppeteer configuration with the user supplied
