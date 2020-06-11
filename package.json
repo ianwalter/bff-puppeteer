@@ -35,7 +35,7 @@
     "fs.js"
   ],
   "dependencies": {
-    "@ianwalter/bff": "^9.8.2",
+    "@ianwalter/bff": "9.8.2",
     "@ianwalter/merge": "^9.0.1",
     "@ianwalter/print": "^6.0.0",
     "common-tags": "^1.8.0",

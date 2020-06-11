@@ -40,7 +40,7 @@
   resolved "https://registry.yarnpkg.com/@ianwalter/base-error/-/base-error-6.1.0.tgz#a25f8a57e04877f6823251c5f1e05c7c060a0130"
   integrity sha512-a1oe3gdY7aVJotysd2hbkARZdIXd80b1xL+kcJGQ/5VzEv7bMhQ+vlamv8DLz828uz/dxMCVb4++n75RyVUs2Q==
 
-"@ianwalter/bff@^9.8.2":
+"@ianwalter/bff@9.8.2":
   version "9.8.2"
   resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-9.8.2.tgz#dc009aac6172fc20b11d87edddba5e7a1eaf617a"
   integrity sha512-B6IT1HCHvFOThgBYOB5R4G4ijaQjTWdJAL1mG7NRNsv4FNmah6a/MyLSu4E1O1J14gVoj3XghaOGH/3HwXbyBg==
