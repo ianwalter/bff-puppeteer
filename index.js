@@ -1,17 +1,15 @@
 const path = require('path')
-const { Print, chalk } = require('@ianwalter/print')
+const { createPrint, chalk } = require('@ianwalter/print')
 const merge = require('@ianwalter/merge')
 const tempy = require('tempy')
 
 const pptrRegex = /pptr\.js$/
 
-let print
+const print = createPrint({ level: 'info', namespace: 'bff.puppeteer' })
 let fileServer
 
 module.exports = {
   async before (context) {
-    print = new Print({ level: context.logLevel })
-
     // Construct the default Puppeteer / Webpack configuration.
     const puppeteer = {
       args: ['--no-sandbox', '--disable-setuid-sandbox'],
@@ -48,7 +46,6 @@ module.exports = {
     }
   },
   async registration (file, context) {
-    print = new Print({ level: context.logLevel })
     print.debug('bff-puppeteer registration', chalk.gray(file.relativePath))
 
     // Add Puppeteer config to the test file context if all tests are marked as
